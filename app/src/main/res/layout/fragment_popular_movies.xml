@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginRight="3dp"
     android:visibility="visible"
     tools:context=".ui.popularmovies.PopularMoviesFragment"
     tools:visibility="visible">
