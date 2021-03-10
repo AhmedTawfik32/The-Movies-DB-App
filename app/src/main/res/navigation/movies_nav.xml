@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/movies_nav"
+    app:startDestination="@id/popularMoviesFragment">
+
+    <fragment
+        android:id="@+id/popularMoviesFragment"
+        android:name="com.ahmedtawfik.moviesapp.ui.popularmovies.PopularMoviesFragment"
+        android:label="Popular Movies"
+        tools:layout="@layout/fragment_popular_movies">
+        <action
+            android:id="@+id/action_to_movieOverviewFragment"
+            app:destination="@id/movieOverviewFragment"
+            app:exitAnim="@anim/fragment_fade_exit" />
+        <argument
+            android:name="mMovie"
+            app:argType="com.ahmedtawfik.moviesapp.model.entity.Movie"
+            app:nullable="true" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/movieOverviewFragment"
+        android:name="com.ahmedtawfik.moviesapp.ui.movieoverview.MovieOverviewFragment"
+        android:label="Movie Overview"
+        tools:layout="@layout/fragment_movie_overview">
+        <action
+            android:id="@+id/action_to_popularMoviesFragment"
+            app:destination="@id/popularMoviesFragment"
+            app:enterAnim="@anim/nav_default_pop_enter_anim" />
+        <argument
+            android:name="mMovie"
+            app:argType="com.ahmedtawfik.moviesapp.model.entity.Movie" />
+        <action
+            android:id="@+id/action_movieOverviewFragment_self"
+            app:destination="@id/movieOverviewFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/upcomingMoviesFragment"
+        android:name="com.ahmedtawfik.moviesapp.ui.upcomingmovies.UpcomingMoviesFragment"
+        android:label="Upcoming Movies"
+        tools:layout="@layout/fragment_upcoming_movies">
+        <action
+            android:id="@+id/action_upcomingMoviesFragment_to_movieOverviewFragment"
+            app:destination="@id/movieOverviewFragment"
+            app:enterAnim="@anim/nav_default_pop_enter_anim" />
+        <argument
+            android:name="mMovie"
+            app:argType="com.ahmedtawfik.moviesapp.model.entity.Movie"
+            app:nullable="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/topRatedFragment"
+        android:name="com.ahmedtawfik.moviesapp.ui.topratedmovies.TopRatedFragment"
+        android:label="Top Rated Movies"
+        tools:layout="@layout/fragment_top_rated">
+        <action
+            android:id="@+id/action_topRatedFragment_to_movieOverviewFragment"
+            app:destination="@id/movieOverviewFragment" />
+        <argument
+            android:name="mMovie"
+            app:argType="com.ahmedtawfik.moviesapp.model.entity.Movie"
+            app:nullable="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/favoriteMoviesFragment"
+        android:name="com.ahmedtawfik.moviesapp.ui.favoritemovies.FavoriteMoviesFragment"
+        android:label="My Favorite Movies"
+        tools:layout="@layout/fragment_favorite_movies">
+        <action
+            android:id="@+id/action_favoriteMoviesFragment_to_movieOverviewFragment"
+            app:destination="@id/movieOverviewFragment" />
+        <argument
+            android:name="mMovie"
+            app:argType="com.ahmedtawfik.moviesapp.model.entity.Movie"
+            app:nullable="true" />
+    </fragment>
+</navigation>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="150dp"
+    android:layout_height="50dp"
+    android:background="@drawable/rec_shape"
+    android:visibility="visible">
+
+    <ImageView
+        android:id="@+id/iv_logo_CompanyProduction"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_baseline_image" />
+
+    <TextView
+        android:id="@+id/tv_productioCompany"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:text="Production Company"
+        android:textSize="14sp" />
+</LinearLayout>

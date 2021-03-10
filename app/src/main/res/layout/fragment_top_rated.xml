@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.topratedmovies.TopRatedFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_topRatedMovies"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        app:layoutManager="androidx.recyclerview.widget.StaggeredGridLayoutManager"
+        app:spanCount="@integer/grid_span_count"
+        tools:listitem="@layout/item_list_movie"
+        tools:visibility="visible" />
+
+    <include
+        layout="@layout/show_error_layout"
+        android:visibility="visible" />
+</FrameLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/popularMoviesFragment"
+            android:icon="@drawable/ic_action_popular"
+            android:title="Popular Movies" />
+        <item
+            android:id="@+id/topRatedFragment"
+            android:icon="@drawable/ic_action_top_rated"
+            android:title="Top Rated Movies" />
+        <item
+            android:id="@+id/upcomingMoviesFragment"
+            android:icon="@drawable/ic_action_latest"
+            android:title="Upcoming Movies" />
+    </group>
+    <item android:title="Mine">
+        <menu>
+            <item
+                android:id="@+id/favoriteMoviesFragment"
+                android:icon="@drawable/ic_action_favorite"
+                android:title="My Favorite Movies" />
+        </menu>
+    </item>
+</menu>
