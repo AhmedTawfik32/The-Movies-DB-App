@@ -19,10 +19,14 @@ The following diagram, which shows how all the modules should interact with one 
 * Kotlin coroutine is a concurrency design pattern that you can use on Android to simplify code that executes asynchronously.
 
 # Screens of The Movies App
-![](https://github.com/AhmedTawfik32/The-Movies-DB-App/blob/master/Attachments/01.jpeg)![](https://github.com/AhmedTawfik32/The-Movies-DB-App/blob/master/Attachments/02.jpeg)![](https://github.com/AhmedTawfik32/The-Movies-DB-App/blob/master/Attachments/03.jpeg)
-![](https://github.com/AhmedTawfik32/The-Movies-DB-App/blob/master/Attachments/04.jpeg)![](https://github.com/AhmedTawfik32/The-Movies-DB-App/blob/master/Attachments/05.jpeg) ![](https://github.com/AhmedTawfik32/The-Movies-DB-App/blob/master/Attachments/06.jpeg)
-![](https://github.com/AhmedTawfik32/The-Movies-DB-App/blob/master/Attachments/07.jpeg)![](https://github.com/AhmedTawfik32/The-Movies-DB-App/blob/master/Attachments/08.jpeg) ![](https://github.com/AhmedTawfik32/The-Movies-DB-App/blob/master/Attachments/09.jpeg)
-![](https://github.com/AhmedTawfik32/The-Movies-DB-App/blob/master/Attachments/10.jpeg)
+
+| Italic             |  Block letters |
+:------------------------------------:|:------------------------------------:
+![](https://github.com/AhmedTawfik32/The-Movies-DB-App/blob/master/Attachments/01.jpeg) | ![](https://github.com/AhmedTawfik32/The-Movies-DB-App/blob/master/Attachments/02.jpeg)
+![](https://github.com/AhmedTawfik32/The-Movies-DB-App/blob/master/Attachments/03.jpeg) | ![](https://github.com/AhmedTawfik32/The-Movies-DB-App/blob/master/Attachments/04.jpeg)
+![](https://github.com/AhmedTawfik32/The-Movies-DB-App/blob/master/Attachments/05.jpeg) | ![](https://github.com/AhmedTawfik32/The-Movies-DB-App/blob/master/Attachments/06.jpeg)
+![](https://github.com/AhmedTawfik32/The-Movies-DB-App/blob/master/Attachments/07.jpeg) | ![](https://github.com/AhmedTawfik32/The-Movies-DB-App/blob/master/Attachments/08.jpeg)
+![](https://github.com/AhmedTawfik32/The-Movies-DB-App/blob/master/Attachments/09.jpeg) | ![](https://github.com/AhmedTawfik32/The-Movies-DB-App/blob/master/Attachments/10.jpeg)
 
 # The Movies App (APK)
 [Download the APK](https://github.com/AhmedTawfik32/The-Movies-DB-App/blob/master/Attachments/The%20Movies%20DB%20V1.0.0.apk)
