@@ -20,7 +20,7 @@ The following diagram, which shows how all the modules should interact with one 
 
 # Screens of The Movies App
 
-| Italic             |  Block letters |
+|              |         |
 :------------------------------------:|:------------------------------------:
 ![](https://github.com/AhmedTawfik32/The-Movies-DB-App/blob/master/Attachments/01.jpeg) | ![](https://github.com/AhmedTawfik32/The-Movies-DB-App/blob/master/Attachments/02.jpeg)
 ![](https://github.com/AhmedTawfik32/The-Movies-DB-App/blob/master/Attachments/03.jpeg) | ![](https://github.com/AhmedTawfik32/The-Movies-DB-App/blob/master/Attachments/04.jpeg)
