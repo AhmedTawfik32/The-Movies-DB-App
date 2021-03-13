@@ -1,5 +1,5 @@
 # The Movies App
-A simple Android application based on Kotlin MVVM architecture for showing movies from the The Movie Database ([TMDb](https://developers.themoviedb.org/3/getting-started/introduction)) API.
+A simple Android application based on Kotlin MVVM architecture for showing movies from the Movie Database ([TMDb](https://developers.themoviedb.org/3/getting-started/introduction)) API.
 
 # Android Architecture Components
 Android architecture components are a collection of libraries that help you design robust, testable, and maintainable apps. 
@@ -9,16 +9,16 @@ The following diagram, which shows how all the modules should interact with one 
 ![](https://github.com/AhmedTawfik32/The-Movies-DB-App/blob/master/Attachments/arccomponents.png)
 
 ## The Architecture Components of The Movies App
-* Lifecycle components help to manage the activity and fragment lifecycles, survive configuration changes, avoid memory leaks and easily load data into your UI.
-* LiveData to build data objects that notify views when the underlying database changes.
-* ViewModel to store the UI-related data that isn't destroyed on app rotations.
-* Room is a SQLite object mapping library used to avoid boilerplate code and easily convert SQLite table data to Java objects. Room provides compile time checks of SQLite statements and can return RxJava, Flowable and LiveData observables.
-* Navigation to handle everything needed for in-app navigation.
-* Repository modules handle data operations. They provide a clean API so that the rest of the app can retrieve this data easily.
-* Dependency injection (DI): Koin is used as a dependency injection yo allow classes to define their dependencies without constructing them. At runtime, another class is responsible for providing these dependencies.
-* Kotlin coroutine is a concurrency design pattern that you can use on Android to simplify code that executes asynchronously.
+* [Lifecycle components](https://developer.android.com/topic/libraries/architecture/lifecycle) to manage the activity and fragment lifecycles, survive configuration changes, avoid memory leaks and easily load data into your UI.
+* [LiveData](https://developer.android.com/reference/android/arch/lifecycle/LiveData) to build data objects that notify views when the underlying database changes.
+* [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel) to store the UI-related data that isn't destroyed on app rotations.
+* [Room](https://developer.android.com/jetpack/androidx/releases/room) is a SQLite object mapping library used to avoid boilerplate code and easily convert SQLite table data to Java objects. Room provides compile time checks of SQLite statements and can return RxJava, Flowable and LiveData observables.
+* [Navigation](https://developer.android.com/guide/navigation?hl=en) to handle everything needed for in-app navigation.
+* [Repository modules](https://developer.android.com/codelabs/kotlin-android-training-repository?hl=en#0) to handle data operations. They provide a clean API so that the rest of the app can retrieve this data easily.
+* [Dependency injection (DI)](https://developer.android.com/training/dependency-injection?hl=en): Koin is used as a dependency injection yo allow classes to define their dependencies without constructing them. At runtime, another class is responsible for providing these dependencies.
+* [Kotlin coroutine](https://developer.android.com/kotlin/coroutines) is a concurrency design pattern that you can use on Android to simplify code that executes asynchronously.
 
-# Screens of The Movies App
+# Screenshots of The Movies App
 
 |              |         |
 :------------------------------------:|:------------------------------------:
